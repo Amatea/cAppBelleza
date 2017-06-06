@@ -1,0 +1,24 @@
+{
+  "name": "bellezaapp",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba | Certamen de belleza",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+  },
+  "keywords": [
+    "morlaquita",
+    "certamen"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.10.4",
+    "nodemon": "^1.11.0"
+  }
+}
